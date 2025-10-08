@@ -57,3 +57,42 @@ Example:
 ```python
 model.fit(generator, epochs=15, steps_per_epoch=steps, verbose=1)
 model.save('best_model.h5')
+```
+
+## 📊 Evaluation and Results
+
+Model evaluation uses **BLEU scores** to measure how closely generated captions match reference captions.
+
+| Metric  | Score |
+|---------|-------|
+| BLEU-1  | 0.54  |
+
+A BLEU score of **0.54** (for one-grams) reflects strong alignment with human-generated captions.  
+Visual inspection confirms the captions are coherent, descriptive, and relevant to the input images.
+
+---
+
+## 🧠 Technologies Used
+
+- **Python**
+- **TensorFlow / Keras**
+- **NumPy**
+- **Pandas**
+- **Matplotlib**
+- **VGG16** (pre-trained on ImageNet)
+
+---
+
+## 🚀 Future Enhancements
+
+- Use transformer-based models (e.g., ViT + GPT) for caption generation.  
+- Integrate attention mechanisms for better context awareness.  
+- Deploy as a web application for real-time caption generation.
+
+---
+
+## 🏁 Conclusion
+
+This project successfully demonstrates how **CNNs** and **LSTMs** can be combined to interpret and describe visual content.  
+It showcases the potential of deep learning in creating intelligent systems that understand and generate human-like language.
+
