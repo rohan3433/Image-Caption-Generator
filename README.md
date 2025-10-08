@@ -1,6 +1,4 @@
-# 🖼️ Image Caption Generator
-
-An innovative deep learning project that combines **Computer Vision** and **Natural Language Processing (NLP)** to automatically generate descriptive captions for images.
+# Image Caption Generator
 
 ---
 
